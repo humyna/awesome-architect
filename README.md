@@ -137,6 +137,7 @@
    * 通过分步骤、分阶段、分系统等方式，尽量降低方案复杂度。
    * 采取设计团队的方式来进行设计，可以博采众长，汇集团队经验，减少思维和经验盲区。
 
+
 ### 2. 高可用设计方法
 #### 1.存储高可用
 1. 主备架构
@@ -313,19 +314,25 @@
 ### 8. 领导与管理能力
 
 ## 架构工具
+TODO
 
 ## 解决方案
+TODO 
 ### 性能调优
 
 ### 高可用
 
 ### 可扩展
 
-
-
-
-
 ### 如何评估新技术
+
+## 架构设计实践
+* [第一步：架构与架构图](https://www.infoq.cn/article/b1fCLl8Mk9L9qe45Zxp6)
+* [第二步：业务架构与产品架构设计实践](https://www.infoq.cn/article/5A8LiWThDdHpkjeKgWLk)
+* [第三步：从领域模型提取数据架构](https://www.infoq.cn/article/gecWdtRC85LD3kfXlWNU)
+* [第四步：单体式与分布式的应用架构](https://www.infoq.cn/article/ZzI05OBgks2kspUWa5y7)
+* [第五步：技术架构的战略和战术原则](https://www.infoq.cn/article/rqdwwxdcwbxtwu8lbfsg)
+
 
 ## 软件工程
 ### DevOps
