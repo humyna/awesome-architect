@@ -1,5 +1,12 @@
 # 后端架构师知识能力图谱
 
+## 写在前面
+> 在软件设计中架构包括：业务架构、数据架构、产品架构、应用架构、技术架构等。
+> 
+> 首先需要熟悉业务，形成业务架构，根据业务架构，做出相应的数据架构和应用架构，最后通过技术架构落地实施。业务架构是战略，应用架构是承上启下，一方面承接业务架构的落地，另一方面影响技术架构的选型。
+> 
+> 如何针对当前需求，选择合适的架构，如何面向未来，保证架构平滑过渡，这个是软件开发者，特别是架构师，都需要深入思考的问题。
+
 ## 架构原则
 > 为什么要掌握架构设计原则?
 > 
@@ -332,4 +339,5 @@
 ## 参考资料
 1. [架构师必须知道的架构设计原则](https://mp.weixin.qq.com/s/03wnIHoAe6VyiMur0UvZHA)
 2. [架构设计原则整理](https://zhuanlan.zhihu.com/p/150168153)
-3. [4中架构设计模式](https://www.infoq.cn/article/several-pain-points-architecture-design)
+3. [4种架构设计模式](https://www.infoq.cn/article/several-pain-points-architecture-design)
+4. [架构设计实践五部曲](https://www.infoq.cn/article/rqdwwxdcwbxtwu8lbfsg)
