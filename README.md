@@ -54,8 +54,6 @@
   - [注意事项](#注意事项)
   - [参考资料](#参考资料)
 
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
 ## 写在前面
 > 在软件设计中架构包括：业务架构、数据架构、产品架构、应用架构、技术架构等。
 > 
