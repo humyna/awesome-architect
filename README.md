@@ -47,6 +47,8 @@
     - [可扩展](#可扩展)
     - [如何评估新技术](#如何评估新技术)
   - [架构设计实践](#架构设计实践)
+    - [架构设计实践5步走](#架构设计实践5步走)
+    - [微服务设计](#微服务设计)
   - [软件工程](#软件工程)
     - [DevOps](#devops)
     - [CI/CD](#cicd)
@@ -93,7 +95,7 @@
 
 ### 分布式系统架构设计原则
 #### 1. AKF 架构原则
-> 共15 个架构原则，来自《架构即未来 (The Art of Scalability)》一书，作者马丁 L. 阿伯特和迈克尔 T. 费舍尔分别是 eBay 和 PayPal 的前 CTO，他们经历过 eBay 和 PayPal 大规模分布式电商平台的架构演进，在一线实战经验的基础上总结并提炼出 15 条架构原则。
+> 共15 个架构原则，来自《架构即未来 (The Art of Scalability)》一书，作者马丁 L. 阿伯特和迈克尔 T. 费舍尔，分别是 eBay 和 PayPal 的前 CTO，他们经历过 eBay 和 PayPal 大规模分布式电商平台的架构演进，在一线实战经验的基础上总结并提炼出 15 条架构原则。
 
 1. N + 1 设计
 2. 回滚设计
@@ -112,6 +114,11 @@
 15. 自动化
 
 *消化吸收这 15 条原则，基本可保系统架构不会有原则性问题；这 15 条原则同样适用于现在的微服务架构。*
+![](./images/akf.jpeg)
+
+>马丁∙阿伯特（Martin L. Abbott） AKF公司的初创合伙人，曾任Quigo（广告技术初创公司，后来被AOL收购）的首席运营官，负责领导产品策略、产品管理、技术研发和客户服务。他在eBay工作了6年，先后担任技术副总裁、首席技术官和公司高管。
+
+>迈克∙费舍尔（Michael T. Fisher ）AKF公司的初创合伙人，曾任Quigo首席技术官，PayPal负责工程和架构的副总裁。他花了7年时间帮助通用电气公司（GE）形成了技术战略，获得过6西格玛黑带的荣誉，还在美军担任过上尉和飞行员。
 
 #### 2. 12 要素应用
 > Heroku 是国外知名的云应用平台。基于上百万应用的托管和运营经验，创始人 Adam Wiggins 提出了 12 要素应用宣言。简单讲，满足这 12 个要素的应用是比较容易云化并居住在 Heroku 平台上的。
@@ -381,12 +388,16 @@ TODO
 ### 如何评估新技术
 
 ## 架构设计实践
+### 架构设计实践5步走
 * [第一步：架构与架构图](https://www.infoq.cn/article/b1fCLl8Mk9L9qe45Zxp6)
 * [第二步：业务架构与产品架构设计实践](https://www.infoq.cn/article/5A8LiWThDdHpkjeKgWLk)
 * [第三步：从领域模型提取数据架构](https://www.infoq.cn/article/gecWdtRC85LD3kfXlWNU)
 * [第四步：单体式与分布式的应用架构](https://www.infoq.cn/article/ZzI05OBgks2kspUWa5y7)
 * [第五步：技术架构的战略和战术原则](https://www.infoq.cn/article/rqdwwxdcwbxtwu8lbfsg)
 
+
+### 微服务设计
+* [如何使用AKF原则设计微服务](https://zhuanlan.zhihu.com/p/79055107)
 
 ## 软件工程
 ### DevOps
@@ -402,3 +413,4 @@ TODO
 2. [架构设计原则整理](https://zhuanlan.zhihu.com/p/150168153)
 3. [4种架构设计模式](https://www.infoq.cn/article/several-pain-points-architecture-design)
 4. [架构设计实践五部曲](https://www.infoq.cn/article/rqdwwxdcwbxtwu8lbfsg)
+5. [微服务架构的前世今生](https://www.cnblogs.com/mrhelloworld/p/microservice.html)
